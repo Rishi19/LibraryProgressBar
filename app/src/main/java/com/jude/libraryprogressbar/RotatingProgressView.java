@@ -75,7 +75,7 @@ public class RotatingProgressView extends View
         canvas.drawArc(rectF3, startAngle3, 180, false, paint3);
         canvas.drawArc(rectF4, startAngle4, 180, false, paint4);
         startAngle1 += 10;
-        startAngle2 += 5;
+        startAngle2 -= 5;
         startAngle3 += 10;
         startAngle4 += 5;
         invalidate();
