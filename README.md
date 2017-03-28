@@ -1,5 +1,5 @@
 # LibraryProgressBar
-ProgressBar library is a short example that helps the developer understand the use of arcs used in drawing views with different paints. Also included are are examples to animate a views or draw line with animation i.e invalidating a view. Will add more later. Hope it helps.<br><br>
+ProgressBar library is a short example that helps the developer understand the use of arcs used in drawing views with different paints. Also included are are examples to animate a view or draw line with animation i.e invalidating a view. Will add more later. Hope it helps.<br><br>
 The below gif shows the different views created:<br>
 1) Animating an arc using invalidate. [Refer ProgressView.java]<br>
 2) Displaying multiple arc's in the same 'RectF' based on their angles. [Refer MultipleProgressView.java]<br>
