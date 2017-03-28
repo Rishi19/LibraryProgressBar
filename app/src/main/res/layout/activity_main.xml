@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="5dp"
+    android:orientation="vertical">
+
+    <com.jude.libraryprogressbar.ProgressView
+        android:id="@+id/progressView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp" />
+
+    <com.jude.libraryprogressbar.MultipleProgressView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp" />
+
+    <com.jude.libraryprogressbar.RotatingProgressView
+        android:id="@+id/rotate"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="5dp" />
+
+    <com.jude.libraryprogressbar.LineProgress
+        android:id="@+id/lineView"
+        android:layout_width="150dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="5dp" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Again"
+        android:visibility="visible" />
+
+    <com.jude.libraryprogressbar.SemiArcProgressView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp" />
+</LinearLayout>
